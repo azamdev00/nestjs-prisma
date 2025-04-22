@@ -1,3 +1,3 @@
-import { User } from 'prisma/generated/prisma';
+import { User } from 'generated/prisma';
 
 export type RequestWithUser = Request & { user: User; params: any };
