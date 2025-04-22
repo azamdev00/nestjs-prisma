@@ -5,7 +5,7 @@ import {
   HealthCheck,
   PrismaHealthIndicator,
 } from '@nestjs/terminus';
-import { PrismaClient } from 'prisma/generated/prisma';
+import { PrismaClient } from 'generated/prisma';
 
 @ApiTags('Health')
 @Controller('health')
